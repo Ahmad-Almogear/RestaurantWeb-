@@ -1,0 +1,224 @@
+:root{
+    --pank:#ded721;
+
+    }
+
+    *{
+margin: 0%;
+padding: 0%;
+box-sizing: border-box;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+outline: none;
+border: none;
+text-decoration: none;
+text-transform: none;
+transition: .2s linear;
+    }
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+    overflow-x: hidden;
+}
+section{
+    padding: 2rem;
+}
+.btn{
+   display: inline-block; 
+   margin-top: 1rem;
+   border-radius: 5rem;
+   background-color: var(--pank);
+   color: #fff;
+   padding:.90rem 3.5rem ;
+   cursor: pointer;
+   font-size: 1.7rem;
+}
+.btn:hover{
+    box-shadow: 3px 3px   #ded721; 
+}
+header{
+    position: fixed;
+    top:0%;
+    left:0%;
+    right:0%;
+    background: rgba(0, 0, 0, 0.445);
+    padding: 2rem 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    box-shadow: 0.5reme 1rem rgba(238, 234, 5, 0.1);
+
+}
+header .logo{
+    font-family: cursive;
+    font-size: 3rem;
+    color: white;
+    font-weight: bolder;
+}
+header .navbar a{
+    font-size: 2rem;
+    padding:0 1.5rem ;
+    color: white;
+    
+
+} 
+header .navbar a:hover{
+    color:#ded721;
+}
+header .icon a{
+    font-size: 3rem;
+    color: white;
+    margin-left: 3rem;
+
+}
+header .icon a:hover{
+  color: #ded721; 
+
+}
+
+.Home{
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url("hero-bg.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.Home .content{
+    max-width: 50rem;
+}
+.Home .content h3{
+    font-family: cursive;
+    font-size: 3rem;
+    color: aliceblue;
+}
+.Home .content p{
+    font-size: 1.5rem;
+    color: aliceblue;
+    padding: 1rem;
+    line-height: 1.5;
+}
+ 
+.circle{
+    width: 120px;
+    height: 120px;
+    background-color: #ded721;
+    border-radius: 60px;
+    padding: 3rem;
+    margin: 5rem;
+    position: absolute;
+    z-index: 0;
+    display: inline;
+   
+
+}
+.div1 {
+    background-color:#282827;
+    width: 40%;
+    border: 15px solid #282827;
+    color: aliceblue;
+    border-radius: 10px;
+    text-align: right;
+    display: flex;
+    z-index: 1;
+    display: flex;
+    flex-flow: row wrap;
+    
+    
+}
+.hero{
+    width: 170px;
+    height: 170px;
+    border-radius: 85px;
+    padding: 3rem;
+    margin-top: -210px;
+    margin-left: 25px;
+    position: absolute;
+    z-index: 2;
+    display: inline;
+    
+
+}
+.maine{
+    padding-left: 50px;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+.ourMenu{
+    display: flex;
+    text-align: center;
+    margin-top: 5rem;
+}
+.navbarMenu{
+    display: flex;
+    font-size:14px;
+    align-items: center;
+    justify-content: center;
+}
+.navbar2 {
+  margin: auto;
+  padding: o.5rem 1.5rem;
+
+}
+.navbarMenu{
+   display: flex;
+   gap: 2rem; 
+
+}
+.navbar2{
+    display: flex;
+    list-style: none;
+    padding: 0.5rem 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    gap: 2rem; 
+}
+a{
+    text-decoration: none;
+}
+h2{
+    text-align: center;
+    margin-bottom:5rem ;
+    font-size: 4rem;
+    transition: all 0.3s;   
+}
+.allproducts{
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    flex-wrap: wrap;
+
+}
+.product{
+    overflow: hidden;
+    background: #f4f3f0 ;
+    color:#21201e;
+    text-align: center;
+    width: 350px;
+    height: 400px;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1.2rem ;
+    margin: 2rem ;
+    background-color: #01022a;
+}
+.product :hover img{
+    scale:  1.1;
+    
+}
+.product:hover{
+    box-shadow: 5px 15px #bfbfba;
+}
+.product img{
+    height: 200px;
+    margin: 1rem;
+    transform: all 0.3s;
+}
